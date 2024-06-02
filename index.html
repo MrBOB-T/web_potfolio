@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nsuku Shendelana - Portfolio</title>
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://github.com/MrBOB-T/WebSite_Potfolio/blob/main/hearderbg.jpg'); /* Background photo */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 1.6; /* Adjust opacity */
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Opaque white background */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Minimal shadow */
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .summary {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee; /* Horizontal line */
+            padding-bottom: 20px; /* Add spacing */
+        }
+        .experience, .education, .certifications, .skills, .projects {
+            margin-bottom: 30px;
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+
+        /* Visual Enhancements */
+        .summary p:first-of-type::first-letter {
+            font-size: 150%;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        .summary p {
+            text-indent: 2em;
+        }
+        .experience h3, .education h2, .certifications h2, .skills h2, .projects h2 {
+            margin-top: 20px;
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            float: left;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Shadow for profile image */
+        }
+        .education-icon, .experience-icon, .certification-icon, .skills-icon, .projects-icon {
+            font-size: 2em;
+            margin-right: 10px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <img src="https://github.com/MrBOB-T/WebSite_Potfolio/blob/main/IMG-20240422-WA0024.jpg" alt="Profile Picture" class="profile-img">
+        <h1>Nsuku Shendelana</h1>
+        <p>Western Cape, South Africa<br>
+        Email: <a href="mailto:3926199@myuwc.ac.za">3926199@myuwc.ac.za</a><br>
+        Phone: <a href="tel:+27615288901">061 528 8901</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/nsuku-wiseman-shendelana-72591520b">Nsuku Wiseman Shendelana</a><br>
+        Website: <a href="https://nsuku.peleweb.co.za/">nsuku.peleweb.co.za</a></p>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>With a strong foundation in statistics and programming, I am a passionate and driven BSc Computer Science student at the University of the Western Cape (UWC). I have excelled in my academic courses, earning multiple certifications from Cisco in cybersecurity, operating systems, and Python essentials.</p>
+            <p>Since February 2023, I have been working as a mathematics tutor at UWC, where I have gained valuable experience in teaching and mentoring students of various levels and backgrounds. I have also contributed to the quality assurance of Cancer Mutual, a nonprofit organization that provides support and resources to cancer patients and survivors. I am seeking opportunities to leverage my knowledge and skills in programming languages such as Python, Java, C, R, SQL, and SAS, along with my academic achievements, to contribute to innovative projects and organizations in the field of computer science.</p>
+        </div>
+
+        <div class="experience">
+            <h2><i class="fas fa-briefcase experience-icon"></i> Experience</h2>
+            <ul>
+                <li>
+                    <h3>Quality Assurance Specialist</h3>
+                    <p><strong>Cancer Mutual</strong><br>
+                    Dec 2022 - Mar 2023 (4 months)<br>
+                    I served as a Quality Assurance Specialist at Cancer Mutual, an insurance call center, where I monitored calls, provided valuable feedback, and drove process improvements to ensure exceptional customer service and compliance with industry standards.</p>
+                </li>
+                <li>
+                    <h3>Math Tutor</h3>
+                    <p><strong>University of the Western Cape</strong><br>
+                    Feb 2023 - Present (1 year)<br>
+                    - Contributed to the university as a math tutor, providing academic support and guidance to fellow students.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="education">
+            <h2><i class="fas fa-graduation-cap education-icon"></i> Education</h2>
+            <ul>
+                <li>
+                    <strong>University of the Western Cape</strong><br>
+                    Bachelor of Science, Computer Science<br>
+                    2019 - 2023<br>
+                    Relevant Course Work:<br>
+                    <ul>
+                        <li>Computer Science I (Problem Solving, Algorithms, and Programming)</li>
+                        <li>Computer Science II (Data Structures, Algorithms, Computer Organizations and Architecture)</li>
+                        <li>Computer Science III (Computer Networks, Operating Systems, Human Computer Interactions, Artificial Intelligence, Database Systems, Software Engineering, and Machine Learning)</li>
+                        <li>Mathematics I and II</li>
+                        <li>Statistics I (Introductory Statistics and Quantitative Methods)</li>
+                        <li>Statistics II (Distribution Theory, Central limit theorem, Transformations, Point and interval)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="certifications">
+            <h2><i class="fas fa-certificate certification-icon"></i> Licenses & Certifications</h2>
+            <ul>
+                <li>Java - TestDome (<a href="https://www.testdome.com/certificates/9e94b561402846b599fbdae483a513ee">Certificate Link</a>)</li>
+                <li>Cyber Threat Management - Cisco</li>
+                <li>Python Essentials 1 - Cisco</li>
+                <li>Operating Systems Basics - Cisco</li>
+                <li>Introduction to Cybersecurity - Cisco</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <h2><i class="fas fa-tools skills-icon"></i> Skills</h2>
+            <p>SAS (Programming Language) • Python (Programming Language) • PHP • MySQL • Linux • Windows • C (Programming Language) • Java • R (Programming Language) • SQL</p>
+        </div>
+
+        <div class="projects">
+            <h2><i class="fas fa-project-diagram projects-icon"></i> Projects Worked On</h2>
+            <p><strong>"Moving Magic Square" Java Program</strong><br>
+                One project I worked on during my studies was called "Moving Magic Square." It's a Java program based on the concept of a magic square game. So, in the game, players have a grid containing positive integer numbers, and they need to move a specific number (usually represented as '9') within the grid to achieve a goal state. The goal state is where the sum of numbers in each row, column, and diagonal equals a predefined value.</p>
+            <p>To solve this problem, I implemented an algorithm using object-oriented programming concepts in Java. I defined a class called State, which represents a state of the game. This class includes variables to store the board configuration, heuristic value, and position of the movable number. I also implemented methods to perform moves, generate children states, and print the contents of a state.</p>
+            <p>To efficiently handle state transitions, I utilized a PriorityQueue (PQ) data structure to store the frontier list of expanded states. States were sorted in ascending order based on their heuristic values. The algorithm iteratively expanded states, generating children states and adding them to the PriorityQueue until a goal state was reached or a maximum number of moves was exceeded.</p>
+            <p>For example, given an initial state of the grid, the program would explore possible moves of the movable number ('9') and prioritize them based on their heuristic values. It would continue to expand states and move towards a goal state where the sum of numbers in each row, column, and diagonal equals the predefined value. The program prints each state and its heuristic value during execution, allowing us to visualize the progress.</p>
+            <p>To ensure efficiency, I carefully designed the algorithm to prioritize moves based on heuristic values, allowing the program to explore promising state transitions first. Additionally, I extensively tested the program on various initial states and verified the correctness of the output against expected results. I also implemented error handling and ensured the program gracefully handles edge cases.</p>
+            <p><strong>Skills gained from the project:</strong> The skills and experience gained from working on this project are highly transferable to real-world software development scenarios. These include proficiency in Java programming, algorithm design, data structure utilization, testing, debugging, and problem-solving. Additionally, the project demonstrates the ability to analyze requirements, design solutions, and implement robust, efficient software systems, which are essential skills in professional software development environments.</p>
+            <p><strong>GitHub Repository:</strong> <a href="https://github.com/yourusername/moving-magic-square">Moving Magic Square</a></p>
+        </div>
+
+            <div class="projects">
+                <h2><i class="fas fa-project-diagram projects-icon"></i> Software Engineering Capstone Project</h2>
+                <p><strong>University of the Western Cape</strong><br>
+                    Jun 2023 - Nov 2023 (6 months)<br>
+                    <strong>Project Title:</strong> Multi-Vendor E-commerce Store</p>
+                <p>As part of my studies at the University of the Western Cape, I undertook a Software Engineering Capstone Project focused on developing a multi-vendor e-commerce platform. The project aimed to create a scalable and robust solution for online retail, providing a seamless shopping experience for users and enabling vendors to showcase and sell their products.</p>
+                <p><strong>Technologies Used:</strong></p>
+                <ul>
+                    <li><strong>XAMPP:</strong> A cross-platform web server solution stack incorporating Apache HTTP Server, MySQL database, and PHP scripting language for server-side logic and database interaction.</li>
+                    <li><strong>HTML, CSS, and JavaScript:</strong> Utilized for designing and developing the frontend user interface, ensuring a visually appealing and intuitive shopping experience.</li>
+                    <li><strong>Laravel:</strong> Explored for backend development, optimizing code structure and enhancing development efficiency.</li>
+                    <li><strong>Payment Gateways:</strong> Integrated PayPal and Stripe to enable secure online transactions, ensuring reliability and trustworthiness.</li>
+                </ul>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Implemented HTTPS encryption, user authentication, and data validation to safeguard against common web vulnerabilities, ensuring the integrity and confidentiality of user data.</li>
+                    <li>Collaborated with team members to plan, develop, and deploy features iteratively, following agile development methodologies to meet project deadlines and deliver high-quality results.</li>
+                </ul>
+                <p>This project provided valuable hands-on experience in software engineering principles, including full-stack development, database management, security implementation, and collaborative teamwork. It demonstrated my ability to apply theoretical knowledge to real-world scenarios, delivering a functional and scalable solution that meets industry standards and user expectations.</p>
+            </div>
+        <div class="projects">
+            <h2><i class="fas fa-project-diagram projects-icon"></i> Database Design for Conference Management Company</h2>
+            <p><strong>Project Overview:</strong></p>
+            <ol>
+                <li><strong>Requirements Elicitation:</strong></li>
+                <ul>
+                    <li>Conducted interviews with key stakeholders to gather requirements.</li>
+                    <li>Analyzed statements provided by the client to identify key entities, attributes, and relationships.</li>
+                </ul>
+                <li><strong>Entity Identification and Relationship Determination:</strong></li>
+                <ul>
+                    <li>Identified entities such as Organization, Conference, Delegate, Event, Caterer, Entertainer, Location, and Equipment.</li>
+                    <li>Determined relationships between entities based on the requirements gathered.</li>
+                </ul>
+                <li><strong>Attribute Definition and Constraint Identification:</strong></li>
+                <ul>
+                    <li>Defined attributes for each entity based on the information collected.</li>
+                    <li>Identified constraints on attributes and relationships to ensure data integrity.</li>
+                </ul>
+                <li><strong>Implementation Using OpenOffice:</strong></li>
+                <ul>
+                    <li>Installed and configured Apache OpenOffice, a versatile office suite that includes database management tools.</li>
+                    <li>Utilized OpenOffice to create tables for the identified entities, defining primary keys, foreign keys, and attributes.</li>
+                </ul>
+                <li><strong>Testing and Validation:</strong></li>
+                <ul>
+                    <li>Populated the tables with sample data to test the relationships and constraints.</li>
+                    <li>Ensured the database met the specified requirements and could handle various scenarios effectively.</li>
+                </ul>
+                <li><strong>Documentation and Portfolio Presentation:</strong></li>
+                <ul>
+                    <li>Prepared comprehensive documentation detailing the entities, attributes, relationships, and constraints of the data model.</li>
+                    <li>Presented the project in my portfolio, showcasing the process followed, challenges faced, and solutions implemented.</li>
+                </ul>
+            </ol>
+            <p><strong>Conclusion:</strong></p>
+            <p>Through this project, I gained valuable experience in database design and implementation, understanding the importance of thorough requirements elicitation, entity identification, and relationship determination. The project demonstrated my ability to translate client requirements into a well-structured database model using industry-standard tools and practices.</p>
+            <p><strong>Future Enhancements:</strong></p>
+            <p>In the future, I aim to further refine the data model based on additional feedback from stakeholders and incorporate advanced features such as data validation rules and user-friendly interfaces for data entry and retrieval.</p>
+        </div>
+
+
+    </div>
+</body>
+</html>
